@@ -19,7 +19,7 @@ body {
 }
 
 a:link {
-    color: #161616;
+    color: var(--color-black);
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ a:hover {
 }
 
 a:active {
-    background-color: var(--color-light-grey)
+    background-color: var(--color-light-grey);
 }
 
 .button {
@@ -73,7 +73,7 @@ a:active {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    margin: var(--section-footer-align);
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-copyright {
     margin: 0;
-    font-size: font var(--font-size-small);
+    font-size: var(--font-size-small);
     color: var(--text-color);
 }
 
