@@ -19,7 +19,7 @@ body {
 }
 
 a:link {
-    color:var(--text-color);
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a:active {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    margin: var(--section-footer-align);
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
