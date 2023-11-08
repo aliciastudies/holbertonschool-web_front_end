@@ -19,7 +19,7 @@ body {
 }
 
 a:link {
-    color: #161616;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ a:hover {
 }
 
 a:active {
-    background-color: var(--color-light-grey)
+    background-color: var(--color-light-grey);
 }
 
 .button {
@@ -198,7 +198,7 @@ ul.row {
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
