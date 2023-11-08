@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-copyright {
     margin: 0;
-    font-size: font var(--font-size-small);
+    font-size: var(--font-size-small);
     color: var(--text-color);
 }
 /* only ul elements in the class "footer"  */
