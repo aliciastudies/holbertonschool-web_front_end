@@ -111,7 +111,7 @@ a:active {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
-
+/* all ul elements with the class "row" */
 ul.row {
     margin: 0;
     padding: 0;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: font var(--font-size-small);
     color: var(--text-color);
 }
-
+/* only ul elements in the class "footer"  */
 .footer ul {
     text-align: right;
 }
